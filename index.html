@@ -1,249 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Portfolio of Nathan Colpron, a Full Stack Developer & AI Integrator with 7+ years of experience building scalable systems and agentic workflows.">
+  <meta name="author" content="Nathan Colpron">
 
-  <head>
+  <title>Nathan Colpron | Full Stack Developer & AI Integrator</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Nathan Colpron's Portfolio</title>
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<body>
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Navigation Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="logo">
+        <i class="fa-solid fa-code"></i> Nathan Colpron
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#ai-workflows" class="nav-link">AI & Workflows</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </nav>
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-    <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">My Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">Portfolio Entries</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead d-flex">
-      <div class="container text-center my-auto">
-        <h1 class="mb-1">Nathan Colpron's Portfolio</h1>
-        <h3 class="mb-5">
-          <em>Graduated Computer Programming at Conestoga College in 2019</em>
-        </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">See More</a>
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
-      <div class="overlay"></div>
-    </header>
+    </div>
+  </header>
 
-    <!-- About -->
-    <section class="content-section bg-light" id="about">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>I am the right choice to design your next project!</h2>
-            <p class="lead mb-5"></p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">My Experience</a>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text scroll-reveal">
+        <div class="hero-tag">
+          <span></span> Open to new opportunities
+        </div>
+        <h1 class="hero-title">Building High-Scale Systems & <span>Agentic AI Workflows</span></h1>
+        <p class="hero-desc">I am a Full Stack Developer and Devops specialist with 7+ years of experience optimizing enterprise web solutions, shipping logistics, and database architectures, combined with cutting-edge expertise in AI orchestration.</p>
+        <div class="hero-ctas">
+          <a href="#experience" class="btn btn-primary">
+            <i class="fa-solid fa-briefcase"></i> View Experience
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fa-solid fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-visual scroll-reveal delay-200">
+        <div class="visual-backdrop"></div>
+        <div class="visual-card">
+          <div class="visual-header">
+            <div class="dot dot-red"></div>
+            <div class="dot dot-yellow"></div>
+            <div class="dot dot-green"></div>
+          </div>
+          <div class="visual-code">
+            <p>// Developer Stack Profile</p>
+            <br>
+            const developer = {<br>
+            &nbsp;&nbsp;name: <span>'Nathan Colpron'</span>,<br>
+            &nbsp;&nbsp;role: <span>'Full Stack & AI'</span>,<br>
+            &nbsp;&nbsp;languages: [<span>'PHP'</span>, <span>'JS'</span>, <span>'SQL'</span>, <span>'Python'</span>],<br>
+            &nbsp;&nbsp;frameworks: [<span>'Laravel'</span>, <span>'Vue.js'</span>],<br>
+            &nbsp;&nbsp;pipelines: [<span>'GitLab'</span>, <span>'CodeRabbit'</span>],<br>
+            &nbsp;&nbsp;edgeAI: <span>'Local Edge Models'</span>,<br>
+            &nbsp;&nbsp;efficiency: <span>'Agentic CLIs'</span><br>
+            };
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
-      <div class="container">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h2 class="mb-5">What I Offer</h2>
+  <!-- About Section -->
+  <section class="section bg-secondary" id="about">
+    <div class="container">
+      <div class="section-title-wrapper scroll-reveal">
+        <span class="section-subtitle">Biography</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-text scroll-reveal">
+          <p>I am a seasoned full stack web developer based in Kitchener, Ontario, with a unique educational background that bridges biotechnology and software systems. After attending McMaster University for Biotechnology, I transitioned into software design and graduated with distinction from Conestoga College's Computer Programming program.</p>
+          <p>Over the past 7 years, I have engineered custom ERPs, invoicing pipelines, inventory logistics, and API networks. I specialize in building robust, performant codebases and integrating automation to maximize organizational efficiency.</p>
+          <p>Beyond traditional coding, I am passionate about leveraging the latest AI paradigms to supercharge development loops—from local LLMs to sandbox execution agents.</p>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p class="text-faded mb-0">Attractive sites on any screen size</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Web Design & Frameworks</strong>
-            </h4>
-            <p class="text-faded mb-0">HTML, CSS, Bootstrap, jQuery, Angular, .NET, J2EE</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Programming</strong>
-            </h4>
-            <p class="text-faded mb-0">C++, C#/Java, JS, PHP, Python, SQL</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Ways to Contact</strong>
-            </h4>
-            <p class="text-faded mb-0">Use any icon in the site footer</p>
+        
+        <div class="scroll-reveal delay-200">
+          <div class="highlight-box">
+            <h3>Why Work With Me?</h3>
+            <p><strong>Self-Starter & Fast Learner:</strong> I thrive on diving deep into new technologies, whether that means custom Redis caching schemas or local edge model runtimes.</p>
+            <br>
+            <p><strong>Collaborative Leader:</strong> Proven experience working closely with cross-functional teams, college partnerships, and key business stakeholders to align code architectures with operational goals.</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Callout -->
-    <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to what could be <em>your</em> next website!</h2>
+  <!-- AI Workflows Section -->
+  <section class="section" id="ai-workflows">
+    <div class="container">
+      <div class="section-title-wrapper scroll-reveal">
+        <span class="section-subtitle">Developer Efficiency</span>
+        <h2 class="section-title">AI Knowledge & Workflows</h2>
       </div>
-    </section>
 
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-      <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
+      <div class="about-grid">
+        <div class="scroll-reveal">
+          <div class="ai-workflow-card">
+            <h3 class="ai-workflow-title">
+              <i class="fa-solid fa-brain ai-workflow-icon"></i> Local & Edge AI
+            </h3>
+            <p class="mb-4 text-secondary">To guarantee data privacy, minimize external network latency, and eliminate recurring cloud token overhead, I design and run customized local edge setups.</p>
+            <ul class="ai-workflow-list mt-3">
+              <li class="ai-workflow-item">
+                <span class="ai-workflow-item-num">01</span>
+                <div>
+                  <h4 class="ai-workflow-item-title">Private Execution</h4>
+                  <p class="ai-workflow-item-desc">Deploying quantized open-weights models locally to process sensitive proprietary database schemas securely.</p>
+                </div>
+              </li>
+              <li class="ai-workflow-item">
+                <span class="ai-workflow-item-num">02</span>
+                <div>
+                  <h4 class="ai-workflow-item-title">Cost Efficiency</h4>
+                  <p class="ai-workflow-item-desc">Optimizing inference engines to run efficiently on workstation hardware, saving significant SaaS API subscription fees.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="https://info2300-prototype.herokuapp.com/">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>HTML Project</h2>
-                  <p class="mb-0">A small fansite made to satisfy the requirements of an HTML course assignment</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </a>
+
+        <div class="scroll-reveal delay-200">
+          <div class="ai-workflow-card">
+            <h3 class="ai-workflow-title">
+              <i class="fa-solid fa-microchip ai-workflow-icon"></i> Agentic Developer Tooling
+            </h3>
+            <p class="mb-4 text-secondary">I leverage autonomous agentic software and rigorous validation pipelines to accelerate development cycles and ensure pristine code quality.</p>
+            <ul class="ai-workflow-list mt-3">
+              <li class="ai-workflow-item">
+                <span class="ai-workflow-item-num">01</span>
+                <div>
+                  <h4 class="ai-workflow-item-title">Agentic Coding Assistants</h4>
+                  <p class="ai-workflow-item-desc">Utilizing state-of-the-art tools (Claude, Codex, Gemini Agentic CLIs like Antigravity) to rapidly draft, refactor, and audit logic.</p>
+                </div>
+              </li>
+              <li class="ai-workflow-item">
+                <span class="ai-workflow-item-num">02</span>
+                <div>
+                  <h4 class="ai-workflow-item-title">Pipeline Verification</h4>
+                  <p class="ai-workflow-item-desc">Integrating GitLab pipelines, PHPStorm inspections, and automated PR review loops via CodeRabbit for extra regression assurance.</p>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="https://property-mm.herokuapp.com">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Property Management System</h2>
-                  <p class="mb-0">Designed for Freure Homes in collaboration with Conestoga College</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
-          </div>
-          <!--<div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Placeholder 2</h2>
-                  <p class="mb-0"></p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Placeholder 3</h2>
-                  <p class="mb-0"></p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-          </div>-->
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">For More Information</h2>
-        <a href="https://1drv.ms/w/s!AmDnnUa-rQB1kLZS7uIqD1ZWAh9G8A" class="btn btn-xl btn-light mr-4">Resume</a>
-        <a href="#contact" class="btn btn-xl btn-dark">Contact me</a>
+  <!-- Skills Section -->
+  <section class="section bg-secondary" id="skills">
+    <div class="container">
+      <div class="section-title-wrapper scroll-reveal">
+        <span class="section-subtitle">Competencies</span>
+        <h2 class="section-title">My Tech Stack</h2>
       </div>
-    </section>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23197.894462705535!2d-80.39174170950518!3d43.38252695583931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2043c24369ede07e!2sConestoga+College!5e0!3m2!1sen!2sca!4v1531858212692"></iframe>
-      <br/>
-      <small>
-        <a href="https://goo.gl/maps/3Xc9V2ME5YK2"></a>
-      </small>
-    </section>
+      <div class="skills-grid">
+        <div class="skills-category scroll-reveal">
+          <h3><i class="fa-solid fa-server" style="color: var(--color-accent);"></i> Backend & DB</h3>
+          <div class="skills-list">
+            <span class="skill-pill">PHP</span>
+            <span class="skill-pill">Laravel</span>
+            <span class="skill-pill">SQL Server</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Redis</span>
+            <span class="skill-pill">REST / SOAP APIs</span>
+            <span class="skill-pill">Java</span>
+          </div>
+        </div>
 
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="mailto:ncolpron@gmail.com">
-              <i class="icon-envelope"></i>
-            </a>
-          </li>
-          <!--<li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="https://steamcommunity.com/id/cartman37/">
-              <i class="icon-social-steam"></i>
-            </a>
-          </li>-->
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="https://github.com/Cartman37">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-        </ul>
-        <p class="text-muted small mb-0">Email and GitHub links above. &copy; 2019 Nathan Colpron </p>
+        <div class="skills-category scroll-reveal delay-100">
+          <h3><i class="fa-solid fa-laptop-code" style="color: var(--color-accent-secondary);"></i> Frontend & Web</h3>
+          <div class="skills-list">
+            <span class="skill-pill">Vue.js</span>
+            <span class="skill-pill">Vite</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">HTML5 / CSS3</span>
+            <span class="skill-pill">Responsive Design</span>
+            <span class="skill-pill">Web Applications</span>
+          </div>
+        </div>
+
+        <div class="skills-category scroll-reveal delay-200">
+          <h3><i class="fa-solid fa-brain" style="color: #10b981;"></i> AI & Automation</h3>
+          <div class="skills-list">
+            <span class="skill-pill">Edge LLMs</span>
+            <span class="skill-pill">Prompt Engineering</span>
+            <span class="skill-pill">Agentic Workflows</span>
+            <span class="skill-pill">CodeRabbit PR Reviews</span>
+            <span class="skill-pill">GitLab Pipelines</span>
+            <span class="skill-pill">Antigravity CLI</span>
+          </div>
+        </div>
+
+        <div class="skills-category scroll-reveal delay-300">
+          <h3><i class="fa-solid fa-network-wired" style="color: #f59e0b;"></i> Systems & DevOps</h3>
+          <div class="skills-list">
+            <span class="skill-pill">System Administration</span>
+            <span class="skill-pill">Version Control (Git)</span>
+            <span class="skill-pill">PHPStorm / VS Code</span>
+            <span class="skill-pill">Computer Networking</span>
+            <span class="skill-pill">Test Automation</span>
+            <span class="skill-pill">Software Testing</span>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fa fa-angle-up"></i>
-    </a>
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-title-wrapper scroll-reveal">
+        <span class="section-subtitle">Professional Path</span>
+        <h2 class="section-title">Work Experience</h2>
+      </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <div class="timeline">
+        <!-- Cober Solutions -->
+        <div class="timeline-item scroll-reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-job">Full Stack Developer</h3>
+                <div class="timeline-company">Cober Solutions</div>
+              </div>
+              <span class="timeline-date">Sep 2019 - Present &middot; Kitchener, ON (Remote)</span>
+            </div>
+            <p class="timeline-desc">Engineered and scaled core print-manufacturing internal software for automated ordering, shipping logistics, inventory controls, invoicing, and real-time operational analytics. Designed robust REST/SOAP API pipelines for seamless third-party client integrations. Optimized performance across MySQL and SQL Server databases, and orchestrated Redis job queues to process high-volume batch tasks efficiently.</p>
+            <div class="timeline-skills">
+              <span class="timeline-skill-pill">Laravel</span>
+              <span class="timeline-skill-pill">Vue.js</span>
+              <span class="timeline-skill-pill">Redis</span>
+              <span class="timeline-skill-pill">MySQL</span>
+              <span class="timeline-skill-pill">SQL Server</span>
+              <span class="timeline-skill-pill">SOAP/REST APIs</span>
+              <span class="timeline-skill-pill">System Admin</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Freure Homes -->
+        <div class="timeline-item scroll-reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-job">Full Stack Developer & Design/Sales Associate</h3>
+                <div class="timeline-company">Freure Homes</div>
+              </div>
+              <span class="timeline-date">Jan 2014 - Aug 2019 &middot; Kitchener, ON</span>
+            </div>
+            <p class="timeline-desc">Managed interior/exterior designs and client sales operations. Initiated, pitched, and developed a comprehensive property management system for the business. This system was designed and deployed in collaboration with Conestoga College as a capstone software project.</p>
+            <div class="timeline-skills">
+              <span class="timeline-skill-pill">PHP</span>
+              <span class="timeline-skill-pill">MySQL</span>
+              <span class="timeline-skill-pill">JavaScript</span>
+              <span class="timeline-skill-pill">HTML/CSS</span>
+              <span class="timeline-skill-pill">Client Relations</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+        <!-- Shoppers Drug Mart -->
+        <div class="timeline-item scroll-reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-job">Pharmacy Technician</h3>
+                <div class="timeline-company">Shoppers Drug Mart</div>
+              </div>
+              <span class="timeline-date">Jan 2013 - Nov 2013 &middot; Ontario, Canada</span>
+            </div>
+            <p class="timeline-desc">Managed prescription processing, inventory control, and detailed verification audits in a high-accuracy, fast-paced retail environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </body>
+  <!-- Projects Section -->
+  <section class="section bg-secondary" id="projects">
+    <div class="container">
+      <div class="section-title-wrapper scroll-reveal">
+        <span class="section-subtitle">Case Studies</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
 
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card scroll-reveal">
+          <div class="project-visual">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Enterprise ERP & Logistics</h3>
+            <p class="project-desc">A full-scale internal enterprise tool designed for print-industry clients. Manages end-to-end print job batching, complex invoicing rules, automated shipping calculations, and inventory forecasting.</p>
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Redis</span>
+              <span class="project-tag">APIs</span>
+            </div>
+            <div class="project-links">
+              <span class="project-link" style="color: var(--text-tertiary);"><i class="fa-solid fa-lock"></i> Proprietary</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card scroll-reveal delay-100">
+          <div class="project-visual" style="background: linear-gradient(135deg, #3b82f6 0%, #10b981 100%);">
+            <i class="fa-solid fa-house-laptop"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Property Management Portal</h3>
+            <p class="project-desc">Designed in partnership with Conestoga College. Features tenant application processing, maintenance tracking, rent collection schedules, and secure administrative dashboards.</p>
+            <div class="project-tags">
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">JS</span>
+              <span class="project-tag">Bootstrap</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Cartman37/property_management_system" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card scroll-reveal delay-200">
+          <div class="project-visual" style="background: linear-gradient(135deg, #10b981 0%, #f59e0b 100%);">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Local AI Inference Setup</h3>
+            <p class="project-desc">Personal orchestration scripts for local edge LLMs (using Llama.cpp and custom model loading wrappers) optimized for processing codebases offline, increasing privacy and speed.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Local LLMs</span>
+              <span class="project-tag">Inference</span>
+            </div>
+            <div class="project-links">
+              <span class="project-link" style="color: var(--text-tertiary);"><i class="fa-solid fa-code"></i> Developer Sandbox</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-title-wrapper scroll-reveal">
+        <span class="section-subtitle">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="education-grid">
+        <!-- Education 1 -->
+        <div class="education-card scroll-reveal">
+          <span class="education-badge">With Distinction</span>
+          <h3 class="education-school">Conestoga College</h3>
+          <div class="education-degree">Advanced Diploma, Computer Programming</div>
+          <span class="education-date">2018 - 2019</span>
+          <p class="education-details">Dean's Honour List and graduated With Distinction. Completed rigorous courses in data structures, systems analysis, databases, and network architectures. Grade: 3.8 GPA.</p>
+        </div>
+
+        <!-- Education 2 -->
+        <div class="education-card scroll-reveal delay-100">
+          <h3 class="education-school">McMaster University</h3>
+          <div class="education-degree">Bachelor of Technology (BTech), Biotechnology</div>
+          <span class="education-date">2008 - 2013</span>
+          <p class="education-details">Studied bioprocess engineering, bioinformatics, organic chemistry, and industrial automation protocols. Developed advanced analytical thinking and data parsing techniques.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section bg-secondary" id="contact">
+    <div class="container">
+      <div class="contact-card scroll-reveal">
+        <h2>Let's build something next-level.</h2>
+        <p>I am open to discussions regarding full-stack systems engineering, database optimization, or setting up agentic LLM developer environments.</p>
+        
+        <div class="email-box">
+          <span class="email-address" id="email-address">ncolpron@gmail.com</span>
+          <button class="btn btn-primary" id="copy-email-btn">
+            <i class="fa-solid fa-copy"></i> Copy Email
+          </button>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:ncolpron@gmail.com" class="social-link" title="Email Me">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/Cartman37" class="social-link" target="_blank" rel="noopener noreferrer" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nathan-colpron-045181185/" class="social-link" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Nathan Colpron. Designed with modern aesthetics and optimized for edge performance.</p>
+    </div>
+  </footer>
+
+  <!-- Custom script -->
+  <script src="js/main.js"></script>
+</body>
 </html>
