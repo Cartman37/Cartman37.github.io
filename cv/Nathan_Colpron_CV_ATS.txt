@@ -1,0 +1,179 @@
+NATHAN COLPRON
+Full Stack Developer & AI Integrator
+
+Kitchener, Ontario, Canada
+ncolpron@gmail.com | (519) XXX-XXXX
+LinkedIn: linkedin.com/in/nathan-colpron-045181185
+GitHub: github.com/Cartman37 | Portfolio: Cartman37.github.io
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+Results-driven Full Stack Developer and DevOps specialist with 7+ years of 
+experience designing, building, and scaling enterprise web solutions, shipping 
+logistics systems, and database architectures. Combines deep expertise in 
+traditional web development with cutting-edge AI orchestration capabilities. 
+Proven track record in engineering custom ERPs, invoicing pipelines, inventory 
+logistics, and API networks. Passionate about leveraging AI paradigms to 
+supercharge development workflows and maximize organizational efficiency.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Backend & Database
+- PHP
+- Laravel
+- Java
+- SQL Server
+- MySQL
+- Redis
+- REST APIs
+- SOAP APIs
+
+Frontend & Web Development
+- Vue.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Responsive Design
+- Web Applications
+
+AI & Automation
+- Edge LLMs
+- Local AI Inference
+- Prompt Engineering
+- Agentic Workflows
+- CodeRabbit
+- GitLab CI/CD
+- CLI Tooling
+
+Systems & DevOps
+- System Administration
+- Version Control (Git)
+- PHPStorm
+- VS Code
+- Computer Networking
+- Test Automation
+- Software Testing
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+COBER SOLUTIONS, Kitchener, ON (Remote)
+Full Stack Developer | Sep 2019 - Present
+
+- Engineered and scaled core print-manufacturing internal software for automated 
+  ordering, shipping logistics, inventory controls, invoicing, and real-time 
+  operational analytics
+- Designed robust REST/SOAP API pipelines for seamless third-party client integrations
+- Optimized performance across MySQL and SQL Server databases
+- Orchestrated Redis job queues to process high-volume batch tasks efficiently
+- Technologies: Laravel, Vue.js, Redis, MySQL, SQL Server, SOAP/REST APIs, System Admin
+
+FREURE HOMES, Kitchener, ON
+Full Stack Developer & Design/Sales Associate | Jan 2014 - Aug 2019
+
+- Managed interior/exterior designs and client sales operations
+- Initiated, pitched, and developed a comprehensive property management system for the business
+- Designed and deployed system in collaboration with Conestoga College as a capstone software project
+- Technologies: PHP, MySQL, JavaScript, HTML/CSS, Client Relations
+
+SHOPPERS DRUG MART, Ontario, Canada
+Pharmacy Technician | Jan 2013 - Nov 2013
+
+- Managed prescription processing, inventory control, and detailed verification audits
+- Operated in a high-accuracy, fast-paced retail environment
+
+================================================================================
+FEATURED PROJECTS
+================================================================================
+
+Enterprise ERP & Logistics System | 2019 - Present
+- Full-scale internal enterprise tool designed for print-industry clients
+- Manages end-to-end print job batching, complex invoicing rules, automated shipping 
+  calculations, and inventory forecasting with real-time operational analytics
+- Technologies: Laravel, MySQL, Redis, APIs
+- Status: Proprietary
+
+Property Management Portal | 2018 - 2019
+- Comprehensive property management system designed in partnership with Conestoga College
+- Features tenant application processing, maintenance tracking, rent collection schedules, 
+  and secure administrative dashboards
+- Technologies: PHP, MySQL, JavaScript, Bootstrap
+- Repository: https://github.com/Cartman37/property_management_system
+
+Local AI Inference Setup | 2023 - Present
+- Personal orchestration scripts for local edge LLMs using Llama.cpp and custom model 
+  loading wrappers
+- Optimized for processing codebases offline, increasing privacy and speed while eliminating 
+  cloud token overhead
+- Technologies: Python, Local LLMs, Inference, Llama.cpp
+- Status: Developer Sandbox
+
+================================================================================
+EDUCATION
+================================================================================
+
+CONESTOGA COLLEGE, Kitchener, ON
+Advanced Diploma, Computer Programming | 2018 - 2019
+- Dean's Honour List
+- With Distinction
+- Grade: 3.8 GPA
+- Coursework: Data Structures, Systems Analysis, Databases, Network Architectures
+
+MCMASTER UNIVERSITY, Hamilton, ON
+Bachelor of Technology (BTech), Biotechnology | 2008 - 2013
+- Focus: Bioprocess Engineering, Bioinformatics, Organic Chemistry, Industrial Automation Protocols
+- Skills: Advanced analytical thinking, data parsing techniques
+
+================================================================================
+AI & DEVELOPER EFFICIENCY EXPERTISE
+================================================================================
+
+Local & Edge AI
+- Deploy quantized open-weights models locally for secure processing of sensitive 
+  proprietary database schemas
+- Optimize inference engines to run efficiently on workstation hardware, saving 
+  significant SaaS API subscription fees
+- Eliminate recurring cloud token overhead while maintaining high performance standards
+
+Agentic Developer Tooling
+- Utilize state-of-the-art tools (Claude, Codex, Gemini, Agentic CLIs) to rapidly draft, 
+  refactor, and audit logic
+- Integrate GitLab pipelines, PHPStorm inspections, and automated PR review loops via CodeRabbit
+- Accelerate development cycles through autonomous agentic software and rigorous 
+  validation pipelines
+
+================================================================================
+KEY STRENGTHS
+================================================================================
+
+- Self-Starter & Fast Learner: Thrive on diving deep into new technologies, whether that 
+  means custom Redis caching schemas or local edge model runtimes
+- Collaborative Leader: Proven experience working closely with cross-functional teams, 
+  college partnerships, and key business stakeholders to align code architectures with 
+  operational goals
+- Problem Solver: Expertise in aligning code architectures with operational goals to maximize 
+  efficiency and organizational effectiveness
+- Innovation-Driven: Passionate about leveraging the latest AI paradigms to supercharge 
+  development workflows and maximize productivity
+
+================================================================================
+CERTIFICATIONS & ACHIEVEMENTS
+================================================================================
+
+- Dean's Honour List - Conestoga College (2018-2019)
+- Graduated With Distinction - Computer Programming Program
+- 3.8 GPA - Academic Excellence Recognition
+
+================================================================================
+ADDITIONAL INFORMATION
+================================================================================
+
+- Open to new opportunities in Full Stack Development, AI Integration, DevOps, and Systems Engineering
+- References available upon request
+- Last Updated: 2026

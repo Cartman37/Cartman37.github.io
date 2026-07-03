@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Colpron - ATS Optimized CV</title>
+    <style>
+        /* ATS-Optimized CV Styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            color: #000;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        /* Print Optimization */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+
+        /* Header */
+        .cv-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .cv-header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+
+        .cv-header .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 12px 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Sections */
+        .cv-section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 12px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ccc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            font-size: 12px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .experience-header h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .experience-company {
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+        .experience-date {
+            font-size: 11px;
+            color: #666;
+            text-align: right;
+        }
+
+        .experience-location {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .experience-description {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .experience-description ul {
+            margin: 8px 0;
+            padding-left: 15px;
+        }
+
+        .experience-description li {
+            margin-bottom: 6px;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .experience-tech {
+            margin-top: 8px;
+            font-size: 11px;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 4px;
+        }
+
+        .tech-tag {
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            color: #333;
+        }
+
+        /* Skills - ATS Optimized (Single Column) */
+        .skills-section {
+            font-size: 12px;
+            line-height: 1.6;
+        }
+
+        .skills-category {
+            margin-bottom: 15px;
+        }
+
+        .skills-category h4 {
+            font-size: 12px;
+            font-weight: bold;
+            margin: 0 0 6px 0;
+        }
+
+        .skills-list-simple {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .skills-list-simple li {
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+
+        /* Education */
+        .education-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .education-item {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .education-school {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .education-degree {
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+        .education-date {
+            font-size: 11px;
+            color: #666;
+        }
+
+        .education-details {
+            margin: 8px 0 0 0;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+
+        .education-honors {
+            margin-top: 8px;
+        }
+
+        .honor-badge {
+            display: inline-block;
+            background-color: #e0e0e0;
+            color: #333;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: normal;
+            margin-right: 4px;
+        }
+
+        /* Projects */
+        .projects-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .project-item {
+            padding: 10px;
+            border-left: 2px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .project-title {
+            font-size: 13px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .project-date {
+            font-size: 11px;
+            color: #666;
+        }
+
+        .project-description {
+            margin: 8px 0;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        /* Strengths */
+        .strengths-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .strength-item {
+            margin-bottom: 10px;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .strength-item strong {
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .cv-footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            font-size: 11px;
+            color: #666;
+        }
+
+        .no-print {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .print-btn {
+            background-color: #0066cc;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .print-btn:hover {
+            background-color: #0052a3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="cv-header">
+        <h1>NATHAN COLPRON</h1>
+        <div class="title">Full Stack Developer & AI Integrator</div>
+        <div class="contact-info">
+            <span>Kitchener, Ontario, Canada</span>
+            <span>ncolpron@gmail.com</span>
+            <span>(519) XXX-XXXX</span>
+        </div>
+        <div class="contact-info">
+            <span>linkedin.com/in/nathan-colpron-045181185</span>
+            <span>github.com/Cartman37</span>
+            <span>Cartman37.github.io</span>
+        </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="cv-section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary">
+            Results-driven Full Stack Developer and DevOps specialist with 7+ years of experience designing, 
+            building, and scaling enterprise web solutions, shipping logistics systems, and database architectures. 
+            Combines deep expertise in traditional web development with cutting-edge AI orchestration capabilities. 
+            Proven track record in engineering custom ERPs, invoicing pipelines, inventory logistics, and API networks. 
+            Passionate about leveraging AI paradigms to supercharge development workflows and maximize organizational efficiency.
+        </p>
+    </div>
+
+    <!-- Core Competencies - ATS Optimized -->
+    <div class="cv-section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-section">
+            <div class="skills-category">
+                <h4>Backend & Database</h4>
+                <ul class="skills-list-simple">
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Java</li>
+                    <li>SQL Server</li>
+                    <li>MySQL</li>
+                    <li>Redis</li>
+                    <li>REST APIs</li>
+                    <li>SOAP APIs</li>
+                </ul>
+            </div>
+            
+            <div class="skills-category">
+                <h4>Frontend & Web Development</h4>
+                <ul class="skills-list-simple">
+                    <li>Vue.js</li>
+                    <li>Vite</li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Responsive Design</li>
+                    <li>Web Applications</li>
+                </ul>
+            </div>
+            
+            <div class="skills-category">
+                <h4>AI & Automation</h4>
+                <ul class="skills-list-simple">
+                    <li>Edge LLMs</li>
+                    <li>Local AI Inference</li>
+                    <li>Prompt Engineering</li>
+                    <li>Agentic Workflows</li>
+                    <li>CodeRabbit</li>
+                    <li>GitLab CI/CD</li>
+                    <li>CLI Tooling</li>
+                </ul>
+            </div>
+            
+            <div class="skills-category">
+                <h4>Systems & DevOps</h4>
+                <ul class="skills-list-simple">
+                    <li>System Administration</li>
+                    <li>Version Control (Git)</li>
+                    <li>PHPStorm</li>
+                    <li>VS Code</li>
+                    <li>Computer Networking</li>
+                    <li>Test Automation</li>
+                    <li>Software Testing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Professional Experience -->
+    <div class="cv-section">
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Full Stack Developer</h3>
+                    <div class="experience-company">Cober Solutions</div>
+                </div>
+                <span class="experience-date">Sep 2019 - Present</span>
+            </div>
+            <div class="experience-location">Kitchener, ON (Remote)</div>
+            <ul class="experience-description">
+                <li>Engineered and scaled core print-manufacturing internal software for automated ordering, shipping logistics, inventory controls, invoicing, and real-time operational analytics</li>
+                <li>Designed robust REST/SOAP API pipelines for seamless third-party client integrations</li>
+                <li>Optimized performance across MySQL and SQL Server databases</li>
+                <li>Orchestrated Redis job queues to process high-volume batch tasks efficiently</li>
+            </ul>
+            <div class="experience-tech">
+                <strong>Technologies:</strong>
+                <div class="tech-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">SOAP/REST APIs</span>
+                    <span class="tech-tag">System Admin</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Full Stack Developer & Design/Sales Associate</h3>
+                    <div class="experience-company">Freure Homes</div>
+                </div>
+                <span class="experience-date">Jan 2014 - Aug 2019</span>
+            </div>
+            <div class="experience-location">Kitchener, ON</div>
+            <ul class="experience-description">
+                <li>Managed interior/exterior designs and client sales operations</li>
+                <li>Initiated, pitched, and developed a comprehensive property management system for the business</li>
+                <li>Designed and deployed system in collaboration with Conestoga College as a capstone software project</li>
+            </ul>
+            <div class="experience-tech">
+                <strong>Technologies:</strong>
+                <div class="tech-tags">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">Client Relations</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Pharmacy Technician</h3>
+                    <div class="experience-company">Shoppers Drug Mart</div>
+                </div>
+                <span class="experience-date">Jan 2013 - Nov 2013</span>
+            </div>
+            <div class="experience-location">Ontario, Canada</div>
+            <ul class="experience-description">
+                <li>Managed prescription processing, inventory control, and detailed verification audits</li>
+                <li>Operated in a high-accuracy, fast-paced retail environment</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Featured Projects -->
+    <div class="cv-section">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="projects-grid">
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Enterprise ERP & Logistics System</h3>
+                    <span class="project-date">2019 - Present</span>
+                </div>
+                <p class="project-description">
+                    Full-scale internal enterprise tool designed for print-industry clients. Manages end-to-end print job batching, complex invoicing rules, automated shipping calculations, and inventory forecasting with real-time operational analytics.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">APIs</span>
+                </div>
+                <div class="project-links">
+                    <span class="project-link" style="color: #666;">Proprietary</span>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Property Management Portal</h3>
+                    <span class="project-date">2018 - 2019</span>
+                </div>
+                <p class="project-description">
+                    Comprehensive property management system designed in partnership with Conestoga College. Features tenant application processing, maintenance tracking, rent collection schedules, and secure administrative dashboards.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Cartman37/property_management_system" class="project-link" target="_blank">
+                        GitHub Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3 class="project-title">Local AI Inference Setup</h3>
+                    <span class="project-date">2023 - Present</span>
+                </div>
+                <p class="project-description">
+                    Personal orchestration scripts for local edge LLMs using Llama.cpp and custom model loading wrappers. Optimized for processing codebases offline, increasing privacy and speed while eliminating cloud token overhead.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Local LLMs</span>
+                    <span class="tech-tag">Inference</span>
+                    <span class="tech-tag">Llama.cpp</span>
+                </div>
+                <div class="project-links">
+                    <span class="project-link" style="color: #666;">Developer Sandbox</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="cv-section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="education-grid">
+            <div class="education-item">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-school">Conestoga College</h3>
+                        <div class="education-degree">Advanced Diploma, Computer Programming</div>
+                    </div>
+                    <span class="education-date">2018 - 2019</span>
+                </div>
+                <div class="education-honors">
+                    <span class="honor-badge">Dean's Honour List</span>
+                    <span class="honor-badge">With Distinction</span>
+                </div>
+                <p class="education-details">
+                    Grade: 3.8 GPA. Completed rigorous courses in data structures, systems analysis, databases, and network architectures.
+                </p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-school">McMaster University</h3>
+                        <div class="education-degree">Bachelor of Technology (BTech), Biotechnology</div>
+                    </div>
+                    <span class="education-date">2008 - 2013</span>
+                </div>
+                <p class="education-details">
+                    Studied bioprocess engineering, bioinformatics, organic chemistry, and industrial automation protocols. Developed advanced analytical thinking and data parsing techniques.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI & Developer Efficiency -->
+    <div class="cv-section">
+        <h2 class="section-title">AI & Developer Efficiency Expertise</h2>
+        
+        <div class="skills-section">
+            <div class="skills-category">
+                <h4>Local & Edge AI</h4>
+                <ul class="skills-list-simple">
+                    <li>Deploy quantized open-weights models locally for secure processing of sensitive proprietary database schemas</li>
+                    <li>Optimize inference engines to run efficiently on workstation hardware, saving significant SaaS API subscription fees</li>
+                    <li>Eliminate recurring cloud token overhead while maintaining high performance standards</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h4>Agentic Developer Tooling</h4>
+                <ul class="skills-list-simple">
+                    <li>Utilize state-of-the-art tools (Claude, Codex, Gemini, Agentic CLIs) to rapidly draft, refactor, and audit logic</li>
+                    <li>Integrate GitLab pipelines, PHPStorm inspections, and automated PR review loops via CodeRabbit</li>
+                    <li>Accelerate development cycles through autonomous agentic software and rigorous validation pipelines</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Key Strengths -->
+    <div class="cv-section">
+        <h2 class="section-title">Key Strengths</h2>
+        <ul class="strengths-list">
+            <li><strong>Self-Starter & Fast Learner:</strong> Thrive on diving deep into new technologies, whether that means custom Redis caching schemas or local edge model runtimes.</li>
+            <li><strong>Collaborative Leader:</strong> Proven experience working closely with cross-functional teams, college partnerships, and key business stakeholders to align code architectures with operational goals.</li>
+            <li><strong>Problem Solver:</strong> Expertise in aligning code architectures with operational goals to maximize efficiency and organizational effectiveness.</li>
+            <li><strong>Innovation-Driven:</strong> Passionate about leveraging the latest AI paradigms to supercharge development workflows and maximize productivity.</li>
+        </ul>
+    </div>
+
+    <!-- Certifications -->
+    <div class="cv-section">
+        <h2 class="section-title">Certifications & Achievements</h2>
+        <ul class="skills-list-simple">
+            <li>Dean's Honour List - Conestoga College (2018-2019)</li>
+            <li>Graduated With Distinction - Computer Programming Program</li>
+            <li>3.8 GPA - Academic Excellence Recognition</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="cv-footer">
+        <p>Open to new opportunities in Full Stack Development, AI Integration, DevOps, and Systems Engineering</p>
+        <p>References available upon request | Last Updated: 2026</p>
+    </div>
+
+    <!-- Print Button (Screen Only) -->
+    <div class="no-print">
+        <button class="print-btn" onclick="window.print()">Print CV / Save as PDF</button>
+    </div>
+
+    <script>
+        // Add smooth scrolling for any internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
