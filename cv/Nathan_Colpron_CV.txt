@@ -1,0 +1,158 @@
+NATHAN COLPRON
+Full Stack Developer & AI Integrator
+
+Kitchener, Ontario, Canada
+ncolpron@gmail.com | (519) XXX-XXXX
+LinkedIn: linkedin.com/in/nathan-colpron-045181185
+GitHub: github.com/Cartman37 | Portfolio: Cartman37.github.io
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+Results-driven Full Stack Developer and DevOps specialist with 7+ years of 
+experience designing, building, and scaling enterprise web solutions. Expertise 
+in custom ERPs, invoicing pipelines, inventory logistics, and API networks. 
+Combines traditional web development with cutting-edge AI orchestration to 
+maximize organizational efficiency and development velocity.
+
+================================================================================
+CORE COMPETENCIES
+================================================================================
+
+BACKEND & DATABASE
+- PHP, Laravel, Java, SQL Server, MySQL, Redis
+- REST/SOAP API Development & Integration
+- Database Optimization & Architecture Design
+
+FRONTEND & WEB
+- Vue.js, Vite, JavaScript (ES6+), HTML5, CSS3
+- Responsive Design & Web Application Development
+
+AI & AUTOMATION
+- Edge LLMs & Local AI Inference (Llama.cpp)
+- Prompt Engineering & Agentic Workflows
+- CodeRabbit PR Reviews, GitLab CI/CD Pipelines
+
+SYSTEMS & DEVOPS
+- System Administration & Computer Networking
+- Version Control (Git), PHPStorm, VS Code
+- Test Automation & Software Testing
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+COBER SOLUTIONS, Kitchener, ON (Remote)
+Full Stack Developer | Sep 2019 - Present
+
+- Engineer and scale core print-manufacturing internal software for automated 
+  ordering, shipping logistics, inventory controls, invoicing, and real-time 
+  operational analytics
+- Design robust REST/SOAP API pipelines for seamless third-party client integrations
+- Optimize performance across MySQL and SQL Server databases
+- Orchestrate Redis job queues to process high-volume batch tasks efficiently
+- Technologies: Laravel, Vue.js, Redis, MySQL, SQL Server, SOAP/REST APIs
+
+FREURE HOMES, Kitchener, ON
+Full Stack Developer & Design/Sales Associate | Jan 2014 - Aug 2019
+
+- Managed interior/exterior designs and client sales operations
+- Initiated, pitched, and developed comprehensive property management system
+- Collaborated with Conestoga College on capstone software project
+- Technologies: PHP, MySQL, JavaScript, HTML/CSS
+
+SHOPPERS DRUG MART, Ontario, Canada
+Pharmacy Technician | Jan 2013 - Nov 2013
+
+- Managed prescription processing, inventory control, and verification audits
+- Operated in high-accuracy, fast-paced retail environment
+
+================================================================================
+FEATURED PROJECTS
+================================================================================
+
+Enterprise ERP & Logistics System
+- Full-scale internal enterprise tool for print-industry clients
+- End-to-end print job batching, complex invoicing, shipping calculations
+- Inventory forecasting and real-time analytics
+- Technologies: Laravel, MySQL, Redis, APIs | Status: Proprietary
+
+Property Management Portal
+- Comprehensive property management system with tenant applications
+- Maintenance tracking, rent collection, secure administrative dashboards
+- Developed in partnership with Conestoga College
+- Technologies: PHP, MySQL, JavaScript, Bootstrap
+- Repository: github.com/Cartman37/property_management_system
+
+Local AI Inference Setup
+- Personal orchestration scripts for local edge LLMs
+- Optimized for offline codebase processing using Llama.cpp
+- Custom model loading wrappers for privacy and speed
+- Technologies: Python, Local LLMs, Inference Optimization
+
+================================================================================
+EDUCATION
+================================================================================
+
+CONESTOGA COLLEGE, Kitchener, ON
+Advanced Diploma, Computer Programming | 2018 - 2019
+- Dean's Honour List, Graduated With Distinction
+- GPA: 3.8/4.0
+- Coursework: Data Structures, Systems Analysis, Databases, Network Architectures
+
+MCMASTER UNIVERSITY, Hamilton, ON
+Bachelor of Technology (BTech), Biotechnology | 2008 - 2013
+- Focus: Bioprocess Engineering, Bioinformatics, Organic Chemistry
+- Skills: Advanced analytical thinking, data parsing techniques
+
+================================================================================
+AI & DEVELOPER EFFICIENCY EXPERTISE
+================================================================================
+
+LOCAL & EDGE AI
+- Deploy quantized open-weights models locally for secure data processing
+- Optimize inference engines for workstation hardware efficiency
+- Eliminate cloud token overhead while maintaining performance
+
+AGENTIC DEVELOPER TOOLING
+- Utilize state-of-the-art AI tools (Claude, Codex, Gemini, Agentic CLIs)
+- Integrate GitLab pipelines, PHPStorm inspections, CodeRabbit PR reviews
+- Accelerate development cycles through autonomous agentic software
+
+================================================================================
+KEY STRENGTHS
+================================================================================
+
+- Self-Starter & Fast Learner: Deep dives into new technologies
+- Collaborative Leader: Cross-functional team coordination
+- Problem Solver: Align code architectures with operational goals
+- Innovation-Driven: AI paradigm adoption for efficiency gains
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Languages: PHP, JavaScript, SQL, Python, Java, HTML5, CSS3
+Frameworks: Laravel, Vue.js, Vite, Bootstrap
+Databases: MySQL, SQL Server, Redis
+Tools: Git, GitLab CI/CD, PHPStorm, VS Code, CodeRabbit
+Systems: System Administration, Computer Networking
+
+================================================================================
+CERTIFICATIONS & ACHIEVEMENTS
+================================================================================
+
+- Dean's Honour List, Conestoga College (2018-2019)
+- Graduated With Distinction, Computer Programming Program
+- 3.8 GPA Academic Excellence Recognition
+
+================================================================================
+ADDITIONAL INFORMATION
+================================================================================
+
+- Open to new opportunities in Full Stack Development, AI Integration, DevOps
+- Interests: AI/ML, Open Source, Developer Tooling, System Optimization
+- References available upon request
+
+Last Updated: 2026
